@@ -1,14 +1,16 @@
 import React from 'react';
 
-import { TaskContainer } from './styles';
+import { RemoveTask, TaskContainer } from './styles';
 
-const Task = ({ task, handleTaskClick }) => {
+const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
 	return (
 		<TaskContainer
-			onClick={() => handleTaskClick(task.id)}
 			style={task.completed ? { borderLeft: '6px solid #0a7' } : {}}
 		>
-			{task.title}
+			<div onClick={() => handleTaskClick(task.id)}>{task.title}</div>
+			<div>
+				<RemoveTask onClick={() => handleTaskDeletion(task.id)}>X</RemoveTask>
+			</div>
 		</TaskContainer>
 	);
 };
