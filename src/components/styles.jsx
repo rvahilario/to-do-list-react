@@ -9,6 +9,7 @@ export const TaskContainer = styled.div`
 	justify-content: space-between;
 	color: #eee;
 	align-items: center;
+	cursor: pointer;
 `;
 
 export const MainContainer = styled.div`
