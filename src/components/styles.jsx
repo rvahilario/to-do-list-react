@@ -57,7 +57,7 @@ export const AddButtonContainer = styled.div`
 	flex: 1;
 `;
 
-export const RemoveTask = styled.button`
+export const ButtonTask = styled.button`
 	background-color: #444;
 	border: none;
 	font-size: 20px;
