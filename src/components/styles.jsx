@@ -37,3 +37,21 @@ export const AddTaskInput = styled.input`
 	color: #eee;
 	font-size: 16px;
 `;
+
+export const ButtonStyled = styled.button`
+	background-color: #0a7;
+	height: 40px;
+	padding: 0 10px;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 16px;
+	color: #444;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+`;
+
+export const AddButtonContainer = styled.div`
+	margin-left: 10px;
+	flex: 1;
+`;
