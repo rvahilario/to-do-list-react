@@ -5,6 +5,7 @@ import { MainContainer } from './components/styles';
 
 import Tasks from './components/Tasks';
 import AddTask from './components/AddTask';
+import Header from './components/Header';
 
 const App = () => {
 	const [tasks, setTasks] = useState([]);
@@ -40,6 +41,7 @@ const App = () => {
 
 	return (
 		<MainContainer>
+			<Header />
 			<AddTask handleTaskAddition={handleTaskAddition} />
 			<Tasks
 				tasks={tasks}

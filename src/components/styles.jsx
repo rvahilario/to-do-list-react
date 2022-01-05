@@ -64,3 +64,7 @@ export const RemoveTask = styled.button`
 	color: #0a7;
 	cursor: pointer;
 `;
+
+export const HeaderStyled = styled.h1`
+	color: #eee;
+`;
