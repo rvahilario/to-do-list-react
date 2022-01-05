@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import Tasks from './components/Tasks';
-import './App.css';
+import { MainContainer } from './components/styles';
 
 const App = () => {
 	const [tasks, setTasks] = useState([
@@ -18,9 +18,9 @@ const App = () => {
 	]);
 
 	return (
-		<div className="container">
+		<MainContainer>
 			<Tasks tasks={tasks} />
-		</div>
+		</MainContainer>
 	);
 };
 
