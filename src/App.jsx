@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 
-import Tasks from './components/Tasks';
 import { MainContainer } from './components/styles';
+
+import Tasks from './components/Tasks';
+import AddTask from './components/AddTask';
 
 const App = () => {
 	const [tasks, setTasks] = useState([
@@ -19,6 +21,7 @@ const App = () => {
 
 	return (
 		<MainContainer>
+			<AddTask />
 			<Tasks tasks={tasks} />
 		</MainContainer>
 	);
