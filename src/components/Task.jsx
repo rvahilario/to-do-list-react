@@ -1,4 +1,5 @@
 import React from 'react';
+import { RiDeleteBinLine, RiInformationLine } from 'react-icons/ri';
 
 import { RemoveTask, TaskContainer } from './styles';
 
@@ -9,7 +10,9 @@ const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
 		>
 			<div onClick={() => handleTaskClick(task.id)}>{task.title}</div>
 			<div>
-				<RemoveTask onClick={() => handleTaskDeletion(task.id)}>X</RemoveTask>
+				<RemoveTask onClick={() => handleTaskDeletion(task.id)}>
+					<RiDeleteBinLine />
+				</RemoveTask>
 			</div>
 		</TaskContainer>
 	);
