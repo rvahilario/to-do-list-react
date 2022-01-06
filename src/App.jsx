@@ -7,6 +7,7 @@ import { MainContainer } from './components/styles';
 import Tasks from './components/Tasks';
 import AddTask from './components/AddTask';
 import Header from './components/Header';
+import TaskDetails from './components/TaskDetails';
 
 const App = () => {
 	const [tasks, setTasks] = useState([]);
@@ -58,19 +59,10 @@ const App = () => {
 						</>
 					)}
 				/>
+				<Route exact path="/:taskTitle" component={TaskDetails} />
 			</MainContainer>
 		</BrowserRouter>
 	);
 };
 
 export default App;
-
-{
-	/* <Header />
-				<AddTask handleTaskAddition={handleTaskAddition} />
-				<Tasks
-					tasks={tasks}
-					handleTaskClick={handleTaskClick}
-					handleTaskDeletion={handleTaskDeletion}
-				/> */
-}

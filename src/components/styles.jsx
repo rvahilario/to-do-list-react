@@ -57,6 +57,11 @@ export const AddButtonContainer = styled.div`
 	flex: 1;
 `;
 
+export const BackButtonContainer = styled.div`
+	margin-left: 10px;
+	flex: 1;
+`;
+
 export const ButtonTask = styled.button`
 	background-color: #444;
 	border: none;
@@ -68,3 +73,5 @@ export const ButtonTask = styled.button`
 export const HeaderStyled = styled.h1`
 	color: #eee;
 `;
+
+export const TaskDetailsContainer = styled.div``;
