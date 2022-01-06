@@ -5,6 +5,8 @@ import {
 	BackButtonContainer,
 	ButtonStyled,
 	TaskDetailsContainer,
+	TaskDetailsTitle,
+	TaskDescription,
 } from './styles';
 
 const TaskDetails = () => {
@@ -16,8 +18,8 @@ const TaskDetails = () => {
 				<ButtonStyled>Voltar</ButtonStyled>
 			</BackButtonContainer>
 			<TaskDetailsContainer>
-				<h2>{params.taskTitle}</h2>
-				<p>
+				<TaskDetailsTitle>{params.taskTitle}</TaskDetailsTitle>
+				<TaskDescription>
 					Labore sunt quis deserunt sunt deserunt ea excepteur consequat esse.
 					Aute elit minim aute in veniam duis amet ad aute voluptate aliqua
 					aliqua. Irure eiusmod occaecat cupidatat elit elit tempor nisi amet.
@@ -25,7 +27,7 @@ const TaskDetails = () => {
 					eiusmod. Consectetur aliquip tempor ea eiusmod consequat. Quis dolore
 					esse exercitation deserunt cillum consequat. Dolore velit ut excepteur
 					nostrud in nulla dolor quis nostrud.
-				</p>
+				</TaskDescription>
 			</TaskDetailsContainer>
 		</>
 	);

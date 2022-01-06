@@ -58,8 +58,8 @@ export const AddButtonContainer = styled.div`
 `;
 
 export const BackButtonContainer = styled.div`
-	margin-left: 10px;
-	flex: 1;
+	width: 30%;
+	margin-top: 10px;
 `;
 
 export const ButtonTask = styled.button`
@@ -74,4 +74,24 @@ export const HeaderStyled = styled.h1`
 	color: #eee;
 `;
 
-export const TaskDetailsContainer = styled.div``;
+export const TaskDetailsContainer = styled.div`
+	background-color: #444;
+	margin: 15px 0;
+	padding: 15px 20px;
+	display: flex;
+	flex-direction: column;
+	color: #eee;
+	border-radius: 5px;
+`;
+
+export const TaskDetailsTitle = styled.h2`
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: #0a7;
+`;
+
+export const TaskDescription = styled.p`
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+`;
