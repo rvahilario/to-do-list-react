@@ -43,26 +43,34 @@ const App = () => {
 	return (
 		<BrowserRouter>
 			<MainContainer>
-				<Header />
-				<Routes>
-					<Route
-						path="/"
-						exact
-						render={() => (
-							<>
-								<AddTask handleTaskAddition={handleTaskAddition} />
-								<Tasks
-									tasks={tasks}
-									handleTaskClick={handleTaskClick}
-									handleTaskDeletion={handleTaskDeletion}
-								/>
-							</>
-						)}
-					/>
-				</Routes>
+				<Route
+					exact
+					path="/"
+					render={() => (
+						<>
+							<Header />
+							<AddTask handleTaskAddition={handleTaskAddition} />
+							<Tasks
+								tasks={tasks}
+								handleTaskClick={handleTaskClick}
+								handleTaskDeletion={handleTaskDeletion}
+							/>
+						</>
+					)}
+				/>
 			</MainContainer>
 		</BrowserRouter>
 	);
 };
 
 export default App;
+
+{
+	/* <Header />
+				<AddTask handleTaskAddition={handleTaskAddition} />
+				<Tasks
+					tasks={tasks}
+					handleTaskClick={handleTaskClick}
+					handleTaskDeletion={handleTaskDeletion}
+				/> */
+}
