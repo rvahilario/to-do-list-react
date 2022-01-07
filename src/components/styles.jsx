@@ -50,6 +50,14 @@ export const ButtonStyled = styled.button`
 	font-weight: bold;
 	cursor: pointer;
 	border: none;
+	transition: background-color 0.5s ease;
+
+	:hover {
+		background-color: #444;
+		color: #0a7;
+		border: solid;
+		border-color: #0a7;
+	}
 `;
 
 export const AddButtonContainer = styled.div`
