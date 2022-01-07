@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 import { MainContainer } from './components/styles';
 
