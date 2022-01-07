@@ -9,7 +9,14 @@ export const TaskContainer = styled.div`
 	justify-content: space-between;
 	color: #eee;
 	align-items: center;
+`;
+
+export const TaskTitle = styled.div`
 	cursor: pointer;
+
+	:hover {
+		color: #0a7;
+	}
 `;
 
 export const MainContainer = styled.div`
@@ -76,6 +83,10 @@ export const ButtonTask = styled.button`
 	font-size: 20px;
 	color: #0a7;
 	cursor: pointer;
+
+	:hover {
+		color: #6ca;
+	}
 `;
 
 export const HeaderStyled = styled.h1`
@@ -90,6 +101,12 @@ export const TaskDetailsContainer = styled.div`
 	flex-direction: column;
 	color: #eee;
 	border-radius: 5px;
+`;
+
+export const TaskButtonContainer = styled.div`
+	width: 20%;
+	display: flex;
+	justify-content: flex-end;
 `;
 
 export const TaskDetailsTitle = styled.h2`

@@ -2,7 +2,12 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 import { RiDeleteBinLine, RiInformationLine } from 'react-icons/ri';
 
-import { ButtonTask, TaskContainer } from './styles';
+import {
+	ButtonTask,
+	TaskContainer,
+	TaskButtonContainer,
+	TaskTitle,
+} from './styles';
 
 const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
 	const history = useHistory();
@@ -15,15 +20,17 @@ const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
 		<TaskContainer
 			style={task.completed ? { borderLeft: '6px solid #0a7' } : {}}
 		>
-			<div onClick={() => handleTaskClick(task.id)}>{task.title}</div>
-			<div>
+			<TaskTitle onClick={() => handleTaskClick(task.id)}>
+				{task.title}
+			</TaskTitle>
+			<TaskButtonContainer>
 				<ButtonTask onClick={() => handleDetailsClick()}>
 					<RiInformationLine />
 				</ButtonTask>
 				<ButtonTask onClick={() => handleTaskDeletion(task.id)}>
 					<RiDeleteBinLine />
 				</ButtonTask>
-			</div>
+			</TaskButtonContainer>
 		</TaskContainer>
 	);
 };
