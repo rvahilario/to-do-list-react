@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 
 import {
 	BackButtonContainer,
@@ -11,11 +11,16 @@ import {
 
 const TaskDetails = () => {
 	const params = useParams();
+	const history = useHistory();
+
+	const handleBackButtonClick = () => {
+		history.goBack();
+	};
 
 	return (
 		<>
 			<BackButtonContainer>
-				<ButtonStyled>Voltar</ButtonStyled>
+				<ButtonStyled onClick={handleBackButtonClick}>Voltar</ButtonStyled>
 			</BackButtonContainer>
 			<TaskDetailsContainer>
 				<TaskDetailsTitle>{params.taskTitle}</TaskDetailsTitle>
