@@ -1,10 +1,11 @@
 import React from 'react';
 
 import Task from './Task';
+import { TasksStyled } from './styles';
 
 const Tasks = ({ tasks, handleTaskClick, handleTaskDeletion }) => {
 	return (
-		<>
+		<TasksStyled>
 			{tasks.map((task) => (
 				<Task
 					key={task.id}
@@ -13,7 +14,7 @@ const Tasks = ({ tasks, handleTaskClick, handleTaskDeletion }) => {
 					handleTaskDeletion={handleTaskDeletion}
 				/>
 			))}
-		</>
+		</TasksStyled>
 	);
 };
 
