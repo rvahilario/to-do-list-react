@@ -71,7 +71,7 @@ const App = () => {
 						</>
 					)}
 				/>
-				<Route exact path="/:taskTitle" component={TaskDetails} />
+				<Route exact path="/:uuid" component={TaskDetails} />
 			</MainContainer>
 		</BrowserRouter>
 	);
