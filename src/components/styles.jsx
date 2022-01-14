@@ -23,7 +23,7 @@ export const MainContainer = styled.div`
 	max-width: 500px;
 	margin: 30px auto;
 	min-height: 300px;
-	max-height: 800px;
+	max-height: 100%;
 	border: 2px solid #0a7;
 	padding: 30px;
 	border-radius: 10px;
@@ -124,7 +124,7 @@ export const TaskDescription = styled.p`
 `;
 
 export const TasksStyled = styled.div`
-	max-height: 650px;
+	max-height: 450px;
 	overflow: auto;
 	background-color: yellow;
 `;
