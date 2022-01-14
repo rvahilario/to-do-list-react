@@ -13,7 +13,7 @@ const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
 	const history = useHistory();
 
 	const handleDetailsClick = () => {
-		history.push(`/${task.title}`);
+		history.push(`/${task.id}/${task.title}`);
 	};
 
 	return (

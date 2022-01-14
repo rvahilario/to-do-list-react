@@ -22,8 +22,8 @@ export const TaskTitle = styled.div`
 export const MainContainer = styled.div`
 	max-width: 500px;
 	margin: 30px auto;
-	overflow: auto;
 	min-height: 300px;
+	max-height: 100%;
 	border: 2px solid #0a7;
 	padding: 30px;
 	border-radius: 10px;
@@ -89,8 +89,10 @@ export const ButtonTask = styled.button`
 	}
 `;
 
-export const HeaderStyled = styled.h1`
-	color: #eee;
+export const HeaderStyled = styled.div`
+	color: #0a7;
+	font-size: 50px;
+	font-weight: bold;
 `;
 
 export const TaskDetailsContainer = styled.div`
@@ -119,4 +121,10 @@ export const TaskDescription = styled.p`
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+`;
+
+export const TasksStyled = styled.div`
+	max-height: 450px;
+	overflow: auto;
+	background-color: yellow;
 `;
