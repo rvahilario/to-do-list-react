@@ -127,4 +127,14 @@ export const TasksStyled = styled.div`
 	max-height: 450px;
 	overflow: auto;
 
+	::-webkit-scrollbar {
+		border-radius: 10px;
+		width: 15px;
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		box-shadow: inset 0 0 4px 4px #0a7;
+		border: solid 4px transparent;
+	}
 `;
