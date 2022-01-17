@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# TO DO list developed to study REACT
+
+under constrution
+
+<!-- This project was inspired in one developed by Felipe Rocha from this [Youtube video](https://youtu.be/ErjWNvP6mko)!
+
+I've made a lot of changes, mostly in CSS parts that I force me in use of styled-components lib. -->
+
+<!--
+
+
+
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +79,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
