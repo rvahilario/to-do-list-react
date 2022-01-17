@@ -126,5 +126,5 @@ export const TaskDescription = styled.p`
 export const TasksStyled = styled.div`
 	max-height: 450px;
 	overflow: auto;
-	background-color: yellow;
+
 `;
