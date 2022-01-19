@@ -1,10 +1,14 @@
 # TO DO list developed to study REACT
 
-under constrution
+===under constrution===
 
-<!-- This project was inspired in one developed by Felipe Rocha from this [Youtube video](https://youtu.be/ErjWNvP6mko)!
+## 🔖&nbsp; About
 
-I've made a lot of changes, mostly in CSS parts that I force me in use of styled-components lib. -->
+**To-do list** is a study project that was inspired in another one developed by [Felipe Rocha](https://github.com/felipemotarocha) do canal [dicasparadevs](https://www.youtube.com/c/dicasparadevs) in this [Youtube video](https://youtu.be/ErjWNvP6mko)!
+
+I've made a lot of changes, mostly in CSS parts forcing me in use of styled-components lib.
+
+---
 
 <!--
 
