@@ -6,7 +6,9 @@
   <a href="#-how-to-download-project">🗂 Try yourself</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-<p>
+## Demo
+
+<p align="center">
    <img height="350px" src="https://github.com/rvahilario/assets/blob/main/to-do-list-react/to-do-list-react.gif">
 </p>
 
