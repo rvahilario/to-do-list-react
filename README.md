@@ -1,5 +1,11 @@
 # TO DO list
 
+<p align="center">
+  <a href="#-about">🔖 About </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">🚀 Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-download-project">🗂 Try yourself</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
 <p>
    <img height="350px" src="https://github.com/rvahilario/assets/blob/main/to-do-list-react/to-do-list-react.gif">
 </p>
