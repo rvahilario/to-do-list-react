@@ -26,6 +26,23 @@ And others ones like:
 
 ---
 
+## 🗂 How to download project
+
+```bash
+
+    # Clone the repository
+    $ git clone https://github.com/rvahilario/to-do-list-react
+
+    # Enter in directory
+    $ cd to-do-list-react
+
+    # Install the dependencies
+    $ yarn install
+
+    # Start the project
+    $ yarn start
+```
+
 <!--
 
 
