@@ -1,7 +1,7 @@
 # TO DO list developed to study REACT
 
 <p align="center">
-   <img src="https://github.com/rvahilario/assets/blob/main/to-do-list-react/to-do-list-react.gif">
+   <img height="350px" src="https://github.com/rvahilario/assets/blob/main/to-do-list-react/to-do-list-react.gif">
 </p>
 
 ## 🔖&nbsp; About
