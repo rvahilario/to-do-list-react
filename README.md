@@ -10,6 +10,22 @@ I've made a lot of changes, mostly in CSS parts forcing me in use of styled-comp
 
 ---
 
+## 🚀 Technologies
+
+Project was developed using the following technologies:
+
+- [![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)&nbsp;](https://reactjs.org)
+- [![StyledComponents](https://img.shields.io/badge/-Styled_Components-05122A?style=flat&logo=styled-components)](https://styled-components.com/)
+
+And others ones like:
+
+- [Axios](https://github.com/axios/axios)
+- [React Icons](https://react-icons.github.io/react-icons)
+- [React Router Dom](https://v5.reactrouter.com/web/guides/quick-start)
+- [UUID](https://github.com/uuidjs/uuid#readme)
+
+---
+
 <!--
 
 
