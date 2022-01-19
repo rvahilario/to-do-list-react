@@ -1,6 +1,8 @@
 # TO DO list developed to study REACT
 
-===under constrution===
+<p align="center">
+   <img src="https://github.com/rvahilario/assets/blob/main/to-do-list-react/to-do-list-react.gif">
+</p>
 
 ## 🔖&nbsp; About
 
@@ -42,6 +44,10 @@ And others ones like:
     # Start the project
     $ yarn start
 ```
+
+---
+
+<h3 align="center">Developed by ☕ Renan Hilário </h3>
 
 <!--
 
