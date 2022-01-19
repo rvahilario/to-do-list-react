@@ -1,4 +1,4 @@
-# **TO DO list**
+# TO DO list
 
 <p align="center">
    <img height="350px" src="https://github.com/rvahilario/assets/blob/main/to-do-list-react/to-do-list-react.gif">
